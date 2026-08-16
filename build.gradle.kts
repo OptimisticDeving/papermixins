@@ -18,6 +18,7 @@ repositories {
     maven("https://repo.essentialsx.net/snapshots/")
     maven("https://maven.enginehub.org/repo/")
     maven("https://repo.opencollab.dev/main/")
+    maven("https://repo.viaversion.com/everything/")
 }
 
 dependencies {
@@ -31,6 +32,7 @@ dependencies {
     compileOnly(libs.essentialsx) { isTransitive = false }
     compileOnly(libs.fastasyncworldedit) { isTransitive = false }
     compileOnly(libs.cloudburstmc.protocol) { isTransitive = false }
+    compileOnly(libs.viaversion.common) { isTransitive = false }
 }
 
 java {
